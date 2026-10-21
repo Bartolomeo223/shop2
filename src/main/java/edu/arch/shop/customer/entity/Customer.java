@@ -20,5 +20,11 @@ public class Customer {
     private Long id;
 
     @Column(nullable = false, length = 100)
-    private String name;
+    private String firstName;
+
+    @Column(nullable = false, length = 100)
+    private String lastName;
+
+    @Column(nullable = false, length = 100)
+    private String emailAddress;
 }
